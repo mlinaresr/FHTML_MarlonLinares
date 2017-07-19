@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formación Académica</title>
+</head>
+<body>
+    <header>
+       <img src="imagenes/logo.svg" alt="Logo">
+        <h1>Hoja de Vida</h1>
+        <h2>Marlon Ali Linares Romero</h2>
+        <h3>Nació el 07-06-1976 en Lima</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Educación</h2>
+            <table border="1" cellspacing=0 cellpadding=0>
+                <tr>
+                    <th width="40">Año</th>
+                    <th width="220">Institución</th>
+                    <th width="200">Lugar</th>
+                    <th width="80">¿Culminó?</th>
+                </tr>
+                <tr>
+                    <td>1994</td>
+                    <td>CEO Blaise Pascal</td>
+                    <td>Tarapoto, San Martín - Perú</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>1997</td>
+                    <td>IST Blaise Pascal</td>
+                    <td>Tarapoto, San Martín - Perú</td>
+                    <td>Si</td>
+                </tr>
+            </table>
+        </article>
+        <hr>
+        <article>
+            <h2>Agregar Estudios</h2>
+            <form action="" autocomplete="on" name="AgregarEstudios">
+                <div>
+                    <label for="anno">Año: </label>
+                    <select id="anno">
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="institucion">Institución: </label>
+                    <input type="text" id="institucion" required>
+                </div>
+                <br>
+                <div>
+                    <label for="lugar">Lugar: </label>
+                    <textarea id="lugar" cols="30" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="culmino">¿Culminó? </label>
+                    <label>Si</label>
+                    <input type="radio" name="culmino" value="1">
+                    <label>No</label>
+                    <input type="radio" name="culmino" value="2">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <p>@Derechos Reservados</p>
+        <ul>
+            <li><b>Correo: </b>maalliro30@yahoo.es</li>
+            <li><b>Teléfono: </b>942967552</li>
+            <li><b>Dirección: </b>Jr. Las Torcazas N° 632 - Tarapoto, San Martín - Perú</li>
+        </ul>
+    </footer>
+</body>
+</html>
